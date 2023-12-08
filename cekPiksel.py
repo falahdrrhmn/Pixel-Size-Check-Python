@@ -1,5 +1,6 @@
 import cv2
 
+# ngecek satu gambar doang
 def get_image_size(image_path):
     image = cv2.imread(image_path)
     if image is None: 
