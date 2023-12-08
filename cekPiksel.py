@@ -7,6 +7,6 @@ def get_image_size(image_path):
     return image.shape[1], image.shape[0]
 
 image_path = "contoh_citra.jpg"
-width, height = get_image_size("D:\Document\Kuliah\Skripsi\Coba Testing klasifikasi\Train\Melanoma\AUG_0_11.jpeg")
+width, height = get_image_size(image_path)
 print(f"Lebar citra: {width} piksel")
 print(f"Tinggi citra: {height} piksel")
